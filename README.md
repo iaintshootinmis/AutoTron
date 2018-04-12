@@ -9,3 +9,12 @@ This Powershell script uses the `Invoke-WebRequest` method to locate the current
 For the last several years Vocatus' [TronScript](https://www.reddit.com/r/tronscript) has saved innumerable hours of troubleshooting, cleaning, and repair time. The only thing that I ever had trouble with was locating the newest version of the program. While TronScript sought to fix this with the auto-update feature, I found it easier to write a powershell script that could be used to always pull the most recent version. It is much lighter weight than carrying the full 1gb TronScript resource and waiting on it to update itself.
 
 The AutoTron can also be loaded into a [Rubber Ducky](https://hakshop.com/collections/usb-rubber-ducky/products/usb-rubber-ducky-deluxe) via the included [inject.bin](https://github.com/justinamcafee/AutoTron/inject.bin) to fully automate the Tron download, extraction, and install by simply plugging in the USB Rubber Ducky. 
+
+
+## Credit Where Credits Due
+Thanks to Vocatus for his awesome example of applied Chrisitianity and OpenSource values. 
+> "Do not withhold good from those to whom it is due, when it is in your power to act." - Proverbs 3:27
+
+Thanks to Carlton Sliger for his infinite Powershell knowledge. 
+
+Thanks to the Reddit Community [TronScript](https://www.reddit.com/r/tronscript) who keeps the TronScript as an invaluable tool in the working mans kit. 
