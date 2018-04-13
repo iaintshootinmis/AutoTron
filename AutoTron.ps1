@@ -2,6 +2,8 @@ If (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
 [Security.Principal.WindowsBuiltInRole] "Administrator"))
 {
 Write-Warning "You do not have Administrator rights to run this script!`nPlease re-run this script as an Administrator!"
+Write-Host -NoNewLine 'Press any key to continue...';
+$null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown');
 Break
 }
 #Setting Variables
