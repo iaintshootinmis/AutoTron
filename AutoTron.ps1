@@ -22,4 +22,4 @@ echo "Copying Tron Files to Desktop"
 Move-Item -path .\tron\*.bat -Destination $env:userprofile\Desktop\
 Move-item -path .\tron\resources -Destination $env:userprofile\Desktop\
 #Launches Tron in unattended mode and uploads Logs to Vocatus by default.
-.\tron\tron.bat -asm -udl 
+.\tron.bat -asm -udl 
